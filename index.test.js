@@ -6,7 +6,7 @@ describe("Remote 1 Test", () => {
     });
 });
 
-test('misc', () => {
+test('Misc Remote 1 Tests', () => {
   expect(tvRemote("does")).toBe(16);
   expect(tvRemote("your")).toBe(23);
   expect(tvRemote("solution")).toBe(33);
